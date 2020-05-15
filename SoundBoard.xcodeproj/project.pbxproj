@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7D33F620246E2FA4006E4DEA /* SoundBoard.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7D33F61E246E2FA4006E4DEA /* SoundBoard.xcdatamodeld */; };
 		7D5052FF246DF12A0004DA4D /* SounViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D5052FE246DF12A0004DA4D /* SounViewController.swift */; };
 		7D9A5105246DE0B3008FCC32 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D9A5104246DE0B3008FCC32 /* AppDelegate.swift */; };
 		7D9A5107246DE0B3008FCC32 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D9A5106246DE0B3008FCC32 /* ViewController.swift */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7D33F61F246E2FA4006E4DEA /* SoundBoard.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SoundBoard.xcdatamodel; sourceTree = "<group>"; };
 		7D5052FE246DF12A0004DA4D /* SounViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SounViewController.swift; sourceTree = "<group>"; };
 		7D9A5101246DE0B3008FCC32 /* SoundBoard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SoundBoard.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7D9A5104246DE0B3008FCC32 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -63,6 +65,7 @@
 				7D9A510D246DE0B5008FCC32 /* LaunchScreen.storyboard */,
 				7D9A5110246DE0B5008FCC32 /* Info.plist */,
 				7D5052FE246DF12A0004DA4D /* SounViewController.swift */,
+				7D33F61E246E2FA4006E4DEA /* SoundBoard.xcdatamodeld */,
 			);
 			path = SoundBoard;
 			sourceTree = "<group>";
@@ -138,6 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7D33F620246E2FA4006E4DEA /* SoundBoard.xcdatamodeld in Sources */,
 				7D5052FF246DF12A0004DA4D /* SounViewController.swift in Sources */,
 				7D9A5107246DE0B3008FCC32 /* ViewController.swift in Sources */,
 				7D9A5105246DE0B3008FCC32 /* AppDelegate.swift in Sources */,
@@ -338,6 +342,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		7D33F61E246E2FA4006E4DEA /* SoundBoard.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				7D33F61F246E2FA4006E4DEA /* SoundBoard.xcdatamodel */,
+			);
+			currentVersion = 7D33F61F246E2FA4006E4DEA /* SoundBoard.xcdatamodel */;
+			path = SoundBoard.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 7D9A50F9246DE0B3008FCC32 /* Project object */;
 }
